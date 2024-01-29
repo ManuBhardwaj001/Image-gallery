@@ -49,3 +49,21 @@
     background-size: cover;
     background-position: center;
 }
+
+.img-box h3 {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition: bottom 0.5s, opacity 0.5s;
+}
+
+.img-box:hover {
+    width: 300px;
+}
+
+.img-box:hover h3 {
+    opacity: 1;
+    bottom: 25px;
+}
